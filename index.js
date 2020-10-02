@@ -1,7 +1,9 @@
 const sumFunc = (a, b) => {
+    a = a - 1
     return a + b
 }
 const multFunc = (a, b) => {
+    a = a + 1
     return a * b
 }
 
