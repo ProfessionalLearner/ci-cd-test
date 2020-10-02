@@ -4,7 +4,8 @@
   "description": "\"test for ci/cd\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index"
   },
   "author": "Arnur Nogaibekov",
   "license": "ISC",
