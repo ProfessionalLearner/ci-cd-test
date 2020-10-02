@@ -1,4 +1,4 @@
-const {sumFunc, multFunc, divFunc} = require("../server/math_func")
+const {sumFunc, multFunc, divFunc} = require("../backend/math_func")
 
 describe("Sum function:", () => {
     test("should return sum of two values", () => {
