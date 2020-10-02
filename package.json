@@ -4,7 +4,7 @@
   "description": "\"test for ci/cd\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Arnur Nogaibekov",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "mongoose": "^5.10.7"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.14",
     "concurrently": "^5.3.0",
     "jest": "^26.4.2",
     "nodemon": "^2.0.4"

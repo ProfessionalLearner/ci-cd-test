@@ -8,3 +8,5 @@ const multFunc = (a, b) => {
 const divFunc = (a, b) => {
     return a / b
 }
+
+module.exports = {sumFunc, multFunc, divFunc}
