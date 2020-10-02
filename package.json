@@ -2,10 +2,10 @@
   "name": "ci-cd-sample",
   "version": "1.0.0",
   "description": "\"test for ci/cd\"",
-  "main": "server/index.js",
+  "main": "backend/index.js",
   "scripts": {
     "test": "jest",
-    "start": "node server/index"
+    "start": "node backend/index"
   },
   "author": "Arnur Nogaibekov",
   "license": "ISC",
