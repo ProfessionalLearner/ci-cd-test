@@ -3,9 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV == "production") {
-    app.use(express.static(__dirname + '/webapp/'))
+    app.use(express.static(__dirname + '/client/'))
     app.get(/.*/, (req, res) => {
-        res.sendFile(__dirname + '/webapp/index.html');
+        res.sendFile(__dirname + '/client/index.html');
     });
 }
 
