@@ -1,13 +1,12 @@
 const express = require("express");
 const app = express();
-
 const PORT = process.env.PORT || 5000;
 
-
-app.get('/', (req, res) => {
-    res.end('<h1>Hello world</h1>')
+if (process.env)
+app.use(express.static(__dirname + '/webapp/'))
+app.get(/.*/, (req, res) => {
+    res.sendFile(__dirname + '/webapp/index.html');
 });
 
-
 app.listen(PORT, () => {
-})
+});
